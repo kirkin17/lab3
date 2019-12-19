@@ -21,6 +21,17 @@ int main()
 				break;
 			}
 		}
-		if (flag) { cout << i << "\t"; };
+		if (flag) 
+		{ 
+			if (i < m) 
+			{
+				cout << i << "\t";
+			}
+			else 
+			{
+				cout << endl << i << "\t";
+				m += 10;
+			}
+		}
 	}						
 }
